@@ -1,0 +1,104 @@
+body {
+    background-image: linear-gradient(rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body .survey_form .freecodecamp{
+    text-align: center;
+    font-size: 2em;
+    margin: 7% 0 1% 0;
+}
+body .survey_form .thankyou{
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 0 auto 3%;
+}
+
+body .survey_form .form{
+    background-color: rgba(27,27,50,0.8);
+    width: 630px;
+    margin: 0 auto;
+    padding: 3% 3%;
+}
+body .survey_form .form .label{
+    padding-bottom: 1.5%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+body .survey_form .form .text{
+    border-radius: 4px;
+    border: none;
+    width: 97%;
+    font-size: 16px;
+    padding: 1.5%;
+    margin-bottom: 4%;
+}
+body .survey_form .form #role{
+    width: 100%;
+}
+body .survey_form .form .would{
+    padding-bottom: 5%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+body .survey_form .form .radio{
+    height:18px;
+    width:18px;
+}
+body .survey_form .form #feature{
+    width: 100%;
+}
+body .survey_form .form .check{
+    padding-bottom: 5%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+body .survey_form .form .space{
+    padding-bottom: 4px;
+}
+body .survey_form .form .check .checkbox{
+    height:20px;
+    width:20px;
+}
+body .survey_form .form #message{
+    padding-bottom: 15%;
+    border-radius: 0;
+}
+body .survey_form .form button{
+    cursor: pointer;
+    background-color: #37af65;
+    padding: 15px 32px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    body .survey_form .thankyou{
+        width: 60%;
+    }
+    body .survey_form .form{
+        width: 450px;
+        padding: 6%;
+    }
+}
+
+@media (max-width: 575px) {
+    body .survey_form .thankyou{
+        width: 80%;
+    }
+    body .survey_form .form{
+        width: 88%;
+        padding: 6%;
+    }
+}
