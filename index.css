@@ -83,18 +83,17 @@ body .survey_form .form button{
     font-family: 'Poppins', sans-serif;
 }
 
-/*@media (max-width: 768px) {*/
-/*    body .survey_form .thankyou{*/
-/*        width: 60%;*/
-/*    }*/
-/*    body .survey_form .form{*/
-/*        width: 450px;*/
-/*        padding: 6%;*/
-/*    }*/
-/*}*/
+@media (max-width: 768px) {
+    body .survey_form .thankyou{
+        width: 60%;
+    }
+    body .survey_form .form{
+        width: 450px;
+        padding: 6%;
+    }
+}
 
-/*@media (max-width: 575px) {*/
-@media (max-width: 734px) {
+@media (max-width: 575px) {
     body .survey_form .thankyou{
         width: 80%;
     }
