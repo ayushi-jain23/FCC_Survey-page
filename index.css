@@ -84,22 +84,22 @@ body .survey_form .form button{
     padding: 15px 32px;
 }
 
-@media (max-width: 768px) {
-    body .survey_form .thankyou{
-        width: 60%;
-    }
-    body .survey_form .form{
-        width: 450px;
-        padding: 6%;
-    }
-}
+/*@media (max-width: 768px) {*/
+/*    body .survey_form .thankyou{*/
+/*        width: 60%;*/
+/*    }*/
+/*    body .survey_form .form{*/
+/*        width: 450px;*/
+/*        padding: 6%;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 576px) {
-    body .survey_form .thankyou{
-        width: 80%;
-    }
-    body .survey_form .form{
-        width: fit-content;
-        padding: 6%;
-    }
-}
+/*@media (max-width: 576px) {*/
+/*    body .survey_form .thankyou{*/
+/*        width: 80%;*/
+/*    }*/
+/*    body .survey_form .form{*/
+/*        width: fit-content;*/
+/*        padding: 6%;*/
+/*    }*/
+/*}*/
