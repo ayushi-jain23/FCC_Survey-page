@@ -22,6 +22,7 @@ body .survey_form .thankyou{
 
 body .survey_form .form{
     background-color: rgba(27,27,50,0.8);
+    border-radius: 5px;
     width: 630px;
     margin: 0 auto;
     padding: 3%;
