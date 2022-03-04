@@ -99,7 +99,7 @@ body .survey_form .form button{
         width: 80%;
     }
     body .survey_form .form{
-        width: 88%;
+        width: fit-content;
         padding: 6%;
     }
 }
