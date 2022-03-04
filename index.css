@@ -11,7 +11,7 @@ body {
 body .survey_form .freecodecamp{
     text-align: center;
     font-size: 2em;
-    margin: 7% 0 1% 0;
+    margin: 7% 0 1%;
 }
 body .survey_form .thankyou{
     text-align: center;
@@ -24,12 +24,12 @@ body .survey_form .form{
     background-color: rgba(27,27,50,0.8);
     width: 630px;
     margin: 0 auto;
-    padding: 3% 3%;
+    padding: 3%;
 }
 body .survey_form .form .label{
-    padding-bottom: 1.5%;
     font-size: 18px;
     letter-spacing: 1px;
+    padding-bottom: 1.5%;
 }
 body .survey_form .form .text{
     border-radius: 4px;
@@ -43,22 +43,22 @@ body .survey_form .form #role{
     width: 100%;
 }
 body .survey_form .form .would{
-    padding-bottom: 5%;
     font-size: 18px;
     letter-spacing: 1px;
-    line-height: 1.5;
+    line-height: 1.8;
+    padding-bottom: 5%;
 }
 body .survey_form .form .radio{
-    height:18px;
-    width:18px;
+    height:19px;
+    width:19px;
 }
 body .survey_form .form #feature{
     width: 100%;
 }
 body .survey_form .form .check{
-    padding-bottom: 5%;
     font-size: 18px;
     letter-spacing: 1px;
+    padding-bottom: 5%;
 }
 body .survey_form .form .space{
     padding-bottom: 4px;
@@ -68,19 +68,19 @@ body .survey_form .form .check .checkbox{
     width:20px;
 }
 body .survey_form .form #message{
-    padding-bottom: 15%;
     border-radius: 0;
+    padding-bottom: 15%;
 }
 body .survey_form .form button{
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     background-color: #37af65;
-    padding: 15px 32px;
     text-align: center;
     width: 100%;
     color: white;
     font-size: 16px;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    padding: 15px 32px;
 }
 
 @media (max-width: 768px) {
