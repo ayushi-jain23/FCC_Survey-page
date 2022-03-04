@@ -93,7 +93,7 @@ body .survey_form .form button{
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
     body .survey_form .thankyou{
         width: 80%;
     }
